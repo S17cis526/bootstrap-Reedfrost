@@ -13,8 +13,25 @@
     <div class="container-fluid">
       <h1>Hello, world!</h1>
 
-      <div style="width: 100%; background: grey">
-        <p>Some text for content</p>
+      <!-- Stack the columns on mobile by making one full-width and
+      the other half-width -->
+      <div class="row example">
+        <div class="col col-md-8">.col .col-md-8</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+
+      <!-- Columns start at 50% wide on mobile and bump up to 33.3%
+      wide on desktop -->
+      <div class="row example">
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      </div>
+
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+      <div class="row example">
+        <div class="col-6">.col-6</div>
+        <div class="col-6">.col-6</div>
       </div>
 
     </div>
