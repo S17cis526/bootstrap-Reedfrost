@@ -13,26 +13,12 @@
     <div class="container-fluid">
       <h1>Hello, world!</h1>
 
-      <div id="my_modal" class="modal fade">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Save changes</button>
-              <button id="close_modal" type="button" class="btn btn-secondary">Close</button>
-            </div>
-          </div>
-        </div>
+      <div id="message">
+        <input type="hidden" id="message_flash" value="Text Here!">
+        <input type="hidden" id="message_type_flash" value="success">
       </div>
-      <button type="button" id="show_modal" class="btn btn-info">Show</button>
+
+      <button id="show_message" class="btn btn-primary">Show Message!</button>
 
     </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
